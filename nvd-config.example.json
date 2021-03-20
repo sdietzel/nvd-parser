@@ -1,0 +1,11 @@
+{
+    "products" : [
+        "apple:iphone_os:"
+    ],
+    "min_score" : 7.0,
+    "vector_required" : [
+        "AV:N",
+        "PR:N",
+        "UI:N"
+    ]
+}
