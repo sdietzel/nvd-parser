@@ -32,7 +32,7 @@ Possible values can be found here: https://www.first.org/cvss/calculator/3.0
 
 **Example:** `["AV:N", "PR:N"]` will filter for all vulnerabilities that have an **A**ttack **V**ector type **N**etwork and **P**rivileges **R**equired are **N**one.
 
-
+Note that matches are exact and all entries must match, so `PR:L` will not match vulnerabilities of type `PR:N` and neither will `["PR:L", "PR:N"]`.
 
 ## Caching
 
